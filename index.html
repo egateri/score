@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exam Grade</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h2>Grade Exam Scores</h2>
+      <p>A JavaScript Program to Grade Exam Scores.</p>
+    </div>
+    <div class="navigation">
+
+      <a href="#">Grading</a>
+      <a href="#">Exams</a>
+      <a href="#">More</a>
+    </div>
+
+    <div class="field">
+      <p><span id="beforepara">T</span>his is a program to score exam grades as per below table:</p>
+  
+       <table>
+         <tr>
+          <th>Score</th>
+          <th>Grade</th>
+         </tr>
+         <tr>
+          <td>100 - 80 </td>
+          <td>A</td>
+         </tr>
+         <tr>
+           <td>79 -60 </td>
+           <td>B</td></tr>
+          <tr>
+            <td>59 - 40</td>
+            <td>C</td>
+          </tr>
+           <tr>
+            <td>39 - 20</td>
+            <td>D</td>
+          </tr>
+          <tr>
+            <td>19 - 0</td>
+            <td>E</td>
+          </tr>
+       </table>
+ 
+      <p>Enter scores between 0 and 100</p>
+      <form id="formScore">
+        Score: <input type="text" name="score" value="" /><br /><br />
+      </form>
+      <button onclick="gradeFunction()">Submit</button>
+  
+      <p id="demo"></p>
+     
+  
+      <script src="script.js"></script>
+    </div>
+ 
+
+    <div class="footer">
+      <h5>(c) 2023 Eliud Gateri</h5>
+    </div>
+  </body>
+</html>
