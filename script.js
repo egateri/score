@@ -30,7 +30,8 @@ function gradeFunction() {
   
   else {
  
-    document.getElementById("demo").innerHTML = "Error:Please input values between 0 and 100";
+    // document.getElementById("demo").innerHTML = "Error:Please input values between 0 and 100";
+    alert("Please input values between 0 and 100");
   }
 }
  
