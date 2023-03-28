@@ -1,4 +1,4 @@
-function gradeFunction() {
+const gradeFunction= () => {
     var x = document.getElementById("formScore").elements[0].value;
   var score = parseInt(x);
   //  score = parseInt(prompt("Enter your score"));
